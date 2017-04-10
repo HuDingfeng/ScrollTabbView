@@ -114,7 +114,6 @@ static NSString *const backgroundCellId = @"backgroundCellId";
         // 设置数据源对象
         collectionView.dataSource = self;
         collectionView.delegate = self;
-        collectionView.scrollEnabled =NO;
         _collectionView = collectionView;
     }
     
