@@ -13,6 +13,18 @@
 		73CE403B1E9B651B00994B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CE40391E9B651B00994B2B /* Main.storyboard */; };
 		73CE403D1E9B651B00994B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CE403C1E9B651B00994B2B /* Assets.xcassets */; };
 		73CE40401E9B651B00994B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CE403E1E9B651B00994B2B /* LaunchScreen.storyboard */; };
+		73CE40491E9B658000994B2B /* BaseSubScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40481E9B658000994B2B /* BaseSubScene.m */; };
+		73CE404D1E9B65A300994B2B /* SubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE404B1E9B65A300994B2B /* SubCell.m */; };
+		73CE404E1E9B65A300994B2B /* SubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CE404C1E9B65A300994B2B /* SubCell.xib */; };
+		73CE40571E9B67F900994B2B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 73CE40501E9B67F900994B2B /* LICENSE */; };
+		73CE40581E9B67F900994B2B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40511E9B67F900994B2B /* README.md */; };
+		73CE40591E9B67F900994B2B /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40541E9B67F900994B2B /* DZNSegmentedControl.m */; };
+		73CE405A1E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40561E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.m */; };
+		73CE405D1E9B691000994B2B /* BackgroundCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE405C1E9B691000994B2B /* BackgroundCollectionCell.m */; };
+		73CE40601E9B6C9300994B2B /* FirstSubScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE405F1E9B6C9300994B2B /* FirstSubScene.m */; };
+		73CE40631E9B6CB800994B2B /* ScondSubScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40621E9B6CB800994B2B /* ScondSubScene.m */; };
+		73CE40661E9B6CD100994B2B /* ThirdSubScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40651E9B6CD100994B2B /* ThirdSubScene.m */; };
+		73CE40691E9B6CEF00994B2B /* FourthSubScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE40681E9B6CEF00994B2B /* FourthSubScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,27 @@
 		73CE403C1E9B651B00994B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73CE403F1E9B651B00994B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73CE40411E9B651B00994B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CE40471E9B658000994B2B /* BaseSubScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSubScene.h; sourceTree = "<group>"; };
+		73CE40481E9B658000994B2B /* BaseSubScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSubScene.m; sourceTree = "<group>"; };
+		73CE404A1E9B65A300994B2B /* SubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCell.h; sourceTree = "<group>"; };
+		73CE404B1E9B65A300994B2B /* SubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCell.m; sourceTree = "<group>"; };
+		73CE404C1E9B65A300994B2B /* SubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubCell.xib; sourceTree = "<group>"; };
+		73CE40501E9B67F900994B2B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73CE40511E9B67F900994B2B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		73CE40531E9B67F900994B2B /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
+		73CE40541E9B67F900994B2B /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		73CE40551E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DZNSegmentedControl.h"; sourceTree = "<group>"; };
+		73CE40561E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DZNSegmentedControl.m"; sourceTree = "<group>"; };
+		73CE405B1E9B691000994B2B /* BackgroundCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundCollectionCell.h; sourceTree = "<group>"; };
+		73CE405C1E9B691000994B2B /* BackgroundCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundCollectionCell.m; sourceTree = "<group>"; };
+		73CE405E1E9B6C9300994B2B /* FirstSubScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstSubScene.h; sourceTree = "<group>"; };
+		73CE405F1E9B6C9300994B2B /* FirstSubScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstSubScene.m; sourceTree = "<group>"; };
+		73CE40611E9B6CB800994B2B /* ScondSubScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScondSubScene.h; sourceTree = "<group>"; };
+		73CE40621E9B6CB800994B2B /* ScondSubScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScondSubScene.m; sourceTree = "<group>"; };
+		73CE40641E9B6CD100994B2B /* ThirdSubScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdSubScene.h; sourceTree = "<group>"; };
+		73CE40651E9B6CD100994B2B /* ThirdSubScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdSubScene.m; sourceTree = "<group>"; };
+		73CE40671E9B6CEF00994B2B /* FourthSubScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthSubScene.h; sourceTree = "<group>"; };
+		73CE40681E9B6CEF00994B2B /* FourthSubScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthSubScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +91,26 @@
 		73CE402F1E9B651B00994B2B /* HDFScrollTableScene */ = {
 			isa = PBXGroup;
 			children = (
+				73CE404F1E9B67F900994B2B /* DZNSegmentedControl */,
 				73CE40331E9B651B00994B2B /* AppDelegate.h */,
 				73CE40341E9B651B00994B2B /* AppDelegate.m */,
 				73CE40361E9B651B00994B2B /* ViewController.h */,
 				73CE40371E9B651B00994B2B /* ViewController.m */,
+				73CE40471E9B658000994B2B /* BaseSubScene.h */,
+				73CE40481E9B658000994B2B /* BaseSubScene.m */,
+				73CE405E1E9B6C9300994B2B /* FirstSubScene.h */,
+				73CE405F1E9B6C9300994B2B /* FirstSubScene.m */,
+				73CE40611E9B6CB800994B2B /* ScondSubScene.h */,
+				73CE40621E9B6CB800994B2B /* ScondSubScene.m */,
+				73CE40641E9B6CD100994B2B /* ThirdSubScene.h */,
+				73CE40651E9B6CD100994B2B /* ThirdSubScene.m */,
+				73CE40671E9B6CEF00994B2B /* FourthSubScene.h */,
+				73CE40681E9B6CEF00994B2B /* FourthSubScene.m */,
+				73CE405B1E9B691000994B2B /* BackgroundCollectionCell.h */,
+				73CE405C1E9B691000994B2B /* BackgroundCollectionCell.m */,
+				73CE404A1E9B65A300994B2B /* SubCell.h */,
+				73CE404B1E9B65A300994B2B /* SubCell.m */,
+				73CE404C1E9B65A300994B2B /* SubCell.xib */,
 				73CE40391E9B651B00994B2B /* Main.storyboard */,
 				73CE403C1E9B651B00994B2B /* Assets.xcassets */,
 				73CE403E1E9B651B00994B2B /* LaunchScreen.storyboard */,
@@ -77,6 +126,27 @@
 				73CE40311E9B651B00994B2B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73CE404F1E9B67F900994B2B /* DZNSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				73CE40501E9B67F900994B2B /* LICENSE */,
+				73CE40511E9B67F900994B2B /* README.md */,
+				73CE40521E9B67F900994B2B /* Source */,
+			);
+			path = DZNSegmentedControl;
+			sourceTree = "<group>";
+		};
+		73CE40521E9B67F900994B2B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				73CE40531E9B67F900994B2B /* DZNSegmentedControl.h */,
+				73CE40541E9B67F900994B2B /* DZNSegmentedControl.m */,
+				73CE40551E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.h */,
+				73CE40561E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +209,9 @@
 			files = (
 				73CE40401E9B651B00994B2B /* LaunchScreen.storyboard in Resources */,
 				73CE403D1E9B651B00994B2B /* Assets.xcassets in Resources */,
+				73CE404E1E9B65A300994B2B /* SubCell.xib in Resources */,
 				73CE403B1E9B651B00994B2B /* Main.storyboard in Resources */,
+				73CE40571E9B67F900994B2B /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +222,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CE40581E9B67F900994B2B /* README.md in Sources */,
+				73CE40661E9B6CD100994B2B /* ThirdSubScene.m in Sources */,
+				73CE40491E9B658000994B2B /* BaseSubScene.m in Sources */,
+				73CE40591E9B67F900994B2B /* DZNSegmentedControl.m in Sources */,
 				73CE40381E9B651B00994B2B /* ViewController.m in Sources */,
+				73CE40691E9B6CEF00994B2B /* FourthSubScene.m in Sources */,
 				73CE40351E9B651B00994B2B /* AppDelegate.m in Sources */,
+				73CE405A1E9B67F900994B2B /* UIScrollView+DZNSegmentedControl.m in Sources */,
+				73CE40601E9B6C9300994B2B /* FirstSubScene.m in Sources */,
+				73CE404D1E9B65A300994B2B /* SubCell.m in Sources */,
+				73CE40631E9B6CB800994B2B /* ScondSubScene.m in Sources */,
+				73CE405D1E9B691000994B2B /* BackgroundCollectionCell.m in Sources */,
 				73CE40321E9B651B00994B2B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
